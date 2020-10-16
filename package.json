@@ -1,0 +1,25 @@
+{
+  "name": "three-cli",
+  "version": "0.0.1",
+  "description": "Tool to boostrap a THREE js project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyymericArn/three-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Lissandre Pasdeloup & Aymeric Arnoult",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyymericArn/three-cli/issues"
+  },
+  "homepage": "https://github.com/AyymericArn/three-cli#readme",
+  "dependencies": {
+    "commander": "^6.1.0"
+  }
+}
