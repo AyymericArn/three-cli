@@ -12,15 +12,15 @@ program.createCommand = (name) => {
   return cmd
 }
 program
-    .command('create <name>')
-    .description('Create a new three.js project')
-    .action((name) => {
-        console.log('Creating your project: ', name)
-        createProjectStructure(name, structure, err => {
-          if(err) console.log(err);
-          else console.log('Success');
-        });
+  .command('create <name>')
+  .description('Create a new three.js project')
+  .action((name) => {
+    console.log('> Creating your project:', name)
+    createProjectStructure(name, structure, err => {
+      if(err) console.log(err)
+      else console.log('> Success !')
     })
+  })
 /**
  * Create directories
  */
